@@ -1,10 +1,10 @@
-# The exercises for sess-14
+# 3D 
 
 
 
 https://github.com/user-attachments/assets/ecf445d3-2a08-462a-a544-d31f521304b1
 
-
+## 💻 Project-14 - (Earth 3D Globe)
 
 ## 👨‍💻 Developed By: Sepehr Nekooian
 
