@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background:url(./img/0.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat-x;
+        }
+        .txt{
+            width: 400px;
+            height: 90px;
+            /* border: 1px solid white; */
+            overflow: hidden;
+            margin: 250px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            *{
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            >span{
+                font-weight: bold;
+                font-size: 60px;
+                animation: bracket .4s linear infinite alternate;
+            }
+            >h1{
+                font-size: 30px;
+                text-transform: uppercase;
+                height: 100%;
+                display: flex;
+                align-items: center;
+            }
+            >ul{
+                animation:myUl infinite alternate 10s linear ;
+                >li{
+                    list-style-type: none;
+                    font-size: 30px;
+                    height: 90px;
+                    display: flex;
+                    align-items: center;
+                    text-transform: capitalize;
+                    /* border: 1px solid white; */
+                }
+            }
+        }
+        @keyframes bracket{
+            to{
+                opacity: 0;
+            }
+        }
+        @keyframes myUl{
+            0%{transform: translateY(0);}
+            23%{transform: translateY(0);}
+            27%{transform: translateY(-90px);}
+            48%{transform: translateY(-90px);}
+            52%{transform: translateY(-180px);}
+            73%{transform: translateY(-180px);}
+            77%{transform: translateY(-270px);}
+            100%{transform: translateY(-270px);}
+        }
+    </style>
+</head>
+<body>
+    <div class="txt">
+        <span>[</span>
+        <h1>Hello</h1>
+        <ul>
+            <li> I </li>
+            <li>Am</li>
+            <li>Iran</li>
+            <li>and You</li>
+        </ul>
+        <span>]</span>
+    </div>
+</body>
+</html>
