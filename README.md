@@ -1,6 +1,9 @@
 # The exercises for sess-14
 
-<img width="1024" height="570" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/939dbbd3-6a98-4935-9a45-abd0d83fc771" />
+
+
+https://github.com/user-attachments/assets/ecf445d3-2a08-462a-a544-d31f521304b1
+
 
 
 ## 👨‍💻 Developed By: Sepehr Nekooian
